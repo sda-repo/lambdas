@@ -1,0 +1,24 @@
+{
+  "name": "packages",
+  "version": "1.0.0",
+  "description": "Contiene todos los modulos NodeJs que se utilizan dentro de las funciones de AWS Lambdas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sda-repo/lambdas.git"
+  },
+  "author": "Carlos Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sda-repo/lambdas/issues"
+  },
+  "homepage": "https://github.com/sda-repo/lambdas#readme",
+  "dependencies": {
+    "aws-cli": "0.0.2",
+    "lambda-local": "^1.5.2",
+    "serverless": "^1.38.0"
+  }
+}
